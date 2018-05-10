@@ -37,6 +37,11 @@ options:
     type: string
     default: "yes"
     description: Set to no to allow downloading from an invalid https site.
+  plugins-http-proxy:
+    type: string
+    default: ""
+    description: |
+      Set the http proxy if required to obtain plugin, (http://PROXY:PORT)
   remove-unlisted-plugins:
     type: string
     default: "no"
